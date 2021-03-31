@@ -1,0 +1,13 @@
+class code{
+    init(val){
+        this.val = val;
+    }
+
+    printVal(){
+        print "The value is : " + this.val;
+    }
+}
+
+
+var c = code("Hello");
+c.printVal();

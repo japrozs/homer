@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -I include -g
+CFLAGS = -I include -g -std=c11
 SRC = $(wildcard *.c src/*.c)
 HEAD = $(wildcard include/*.h)
 OBJ = $(SRC:.c=.o)
@@ -15,8 +15,8 @@ $(EXEC): $(OBJ)
 
 build:
 	make
-	mkdir bin
 	mv ./hm bin/hm
+	make clean
 
 clean:
 	rm -rf *.o src/*.o $(EXEC)

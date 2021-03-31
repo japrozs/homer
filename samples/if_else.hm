@@ -1,0 +1,6 @@
+vra name;
+if(name == null){
+	print "Name is null!!";
+}else{
+	print "Name is not null ?!!!!";
+}
