@@ -115,6 +115,7 @@ static void defineNative(const char *name, NativeFn function)
   pop();
   pop();
 }
+
 //< Calls and Functions define-native
 
 void initVM()

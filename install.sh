@@ -9,7 +9,7 @@ if ! command -v unzip >/dev/null; then
 	exit 1
 fi
 
-homer_uri="https://github.com/japrozs/homer/releases/download/0.0.2/homer.zip"
+homer_uri="https://github.com/japrozs/homer/releases/download/0.01/hm.zip"
 
 homer_install="${HOMER_INSTALL:-$HOME/.homer}"
 bin_dir="$homer_install/bin"
