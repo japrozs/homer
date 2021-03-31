@@ -25,5 +25,9 @@ build:
 	cd ..
 	make clean
 
+install:
+	chmod +x install.sh
+	./install.sh
+
 clean:
 	rm -rf *.o src/*.o $(EXEC) hm.exe
