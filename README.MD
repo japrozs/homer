@@ -1,5 +1,5 @@
 # Homer
-
+<img src="/assets/Homer.png">
 Homer is a general-use, imperative scripting language which is focused on simplicity and ease of usability.
 
 # Install
