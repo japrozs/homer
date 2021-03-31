@@ -31,6 +31,20 @@ static Value clockNative(int argCount, Value *args)
   return NUMBER_VAL((double)clock() / CLOCKS_PER_SEC);
 }
 
+// static Value inputNative(int argc, Value *args)
+// {
+//   char line[1024];
+//   printf("%s", args[0]);
+
+//   if (!fgets(line, sizeof(line), stdin))
+//   {
+//     printf("\n");
+//     return "";
+//   }
+
+//   return line;
+// }
+
 static Value quitNative(int argc, Value *args)
 {
   if (argc != 1)
@@ -154,6 +168,7 @@ void initVM()
 
   defineNative("clock", clockNative);
   defineNative("quit", quitNative);
+  // defineNative("input", inputNative);
   //< Calls and Functions define-native-clock
 }
 
