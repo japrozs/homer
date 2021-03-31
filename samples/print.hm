@@ -1,0 +1,8 @@
+fn echo(num){
+  print "Num : " + num;
+  return num;
+}
+
+print "Hello World";
+print 3 - 1;
+print echo(echo(3), echo(4));

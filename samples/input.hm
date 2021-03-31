@@ -1,0 +1,9 @@
+// Get the name from user
+var name = input("What is your name : ")
+
+// Match it with "Jake"
+if(name == "jake"){
+	print "Your name is Jacob/Jake";
+}else{
+	print "Your name is " + Jake;
+}
